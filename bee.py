@@ -12,7 +12,7 @@ class Bee(Mosquito):
         # moving
         moving_direction, start_pos = self.define_spawn_pos(size)
         # sprite
-        self.rect = pygame.Rect(start_pos[0], start_pos[1], size[0]//10, size[1]//10)
+        self.rect = pygame.Rect(start_pos[0], start_pos[1], size[0]//5, size[1]//10)
         self.images = [image.load(f"Assets/bee2/{nb}.png", size=size, flip=moving_direction=="right") for nb in range(1, 3)] # load the images
         # self.images = [image.load("Assets/mosquito/baolixi2.png", size=size, flip=moving_direction=="right")]
         self.current_frame = 0

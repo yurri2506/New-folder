@@ -4,7 +4,7 @@ import pygame
 WINDOW_NAME = "Collecting Tucky Pockets"  # tên của cửa sổ trò chơi
 GAME_TITLE = WINDOW_NAME  # tiêu đề của trò chơi
 
-SCREEN_WIDTH, SCREEN_HEIGHT = 1300, 900  # kích thước của cửa sổ 1920
+SCREEN_WIDTH, SCREEN_HEIGHT = 1450, 1000  # kích thước của cửa sổ 1920
 
 FPS = 90  # số frame/s mà
 DRAW_FPS = True  # xác định fps được hiển thị
@@ -21,7 +21,8 @@ BEE_SIZES = (100, 70)
 BEE_SIZE_RANDOMIZE = (1.2, 1.5)  # kích thước ngẫu nhiên của con ong
 
 # drawing
-DRAW_HITBOX = True  # xác định hitbox có được vẽ lên hay không
+DRAW_HITBOX = True 
+ # xác định hitbox có được vẽ lên hay không
 
 # animation
 ANIMATION_SPEED = 0.08  # tốc độ thay đổi frame của các đối tượng
