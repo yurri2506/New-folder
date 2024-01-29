@@ -5,7 +5,7 @@ from settings import *
 # dùng để vẽ background, chỉnh lại kích thước của background
 class Background:
     def __init__(self):
-        self.image = image.load("Assets/background1.jpg", size=(SCREEN_WIDTH, SCREEN_HEIGHT), 
+        self.image = image.load("Assets/background3.png", size=(SCREEN_WIDTH, SCREEN_HEIGHT), 
                                 convert="default")
 
 
