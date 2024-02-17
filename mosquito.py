@@ -12,7 +12,7 @@ class Mosquito:
         #size
         # random_size_value = random.uniform(MOSQUITO_SIZE_RANDOMIZE[0], MOSQUITO_SIZE_RANDOMIZE[1])
         # fix lại là kích thước nhân 2, không random
-        random_size_value = 2
+        random_size_value = 3
         size = (int(MOSQUITOS_SIZES[0] * random_size_value), int(MOSQUITOS_SIZES[1] * random_size_value))
         # moving
         moving_direction, start_pos = self.define_spawn_pos(size)

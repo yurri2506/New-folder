@@ -16,7 +16,7 @@ HAND_HITBOX_SIZE = (60, 60)  # kích thước hitbox của tay người chơi
 MOSQUITOS_SIZES = (100, 70)  # kích thước cơ bản của con muỗi
 
 # điều chỉnh kích thước ngẫu nhiên của con muỗi
-MOSQUITO_SIZE_RANDOMIZE = (1, 1.2)
+MOSQUITO_SIZE_RANDOMIZE = (1, 2)
 BEE_SIZES = (100, 70)
 BEE_SIZE_RANDOMIZE = (1.2, 1.5)  # kích thước ngẫu nhiên của con ong
 
@@ -31,8 +31,8 @@ ANIMATION_SPEED = 0.08  # tốc độ thay đổi frame của các đối tượ
 GAME_DURATION = 60  # thời gian tổng cộng của một vòng chơi
 MOSQUITOS_SPAWN_TIME = 1  # thời gian giữa mỗi lần xuất hiện của muỗi mới
 # điều chỉnh tốc độ di chuyển của muỗi
-MOSQUITOS_MOVE_SPEED = {"min": 15, "max": 20}
-BEE_MOVE_SPEED = {"min": 30, "max": 35}
+MOSQUITOS_MOVE_SPEED = {"min": 20, "max": 25}
+BEE_MOVE_SPEED = {"min": 35, "max": 45}
 BEE_PENALITY = 10  # số điểm bị trừ khi giết một con ông
 
 # colors
